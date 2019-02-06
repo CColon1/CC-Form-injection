@@ -75,7 +75,7 @@ var sendPaymentDataToAnet = function(handler) {
 	if (typeof Accept !== 'object' ) {
 		var script = document.createElement("script");
 		script.type = "text/javascript";
-		script.src = "http://maps.google.com/maps/api/js?callback=initMap";
+		script.src = "https://jstest.authorize.net/v1/Accept.js";
 		document.body.appendChild(script);
 	} 
     var authData = {};
